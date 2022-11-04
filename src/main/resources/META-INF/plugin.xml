@@ -5,7 +5,7 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Redit</name>
+    <name>ReEdit</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="1726542850@qq.com" url="https://qqtim.club">ReZeroS</vendor>
@@ -14,8 +14,7 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    既然是敲代码的插件，当然是首先服务于敲，其次服务于代码
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
@@ -29,7 +28,7 @@
 
     </extensions>
     <actions>
-        <action id="NodeEdit" class="io.github.rezeros.redit.NodeEdit" text="NodeEdit" description="给节点添加属性">
+        <action id="NodeEdit" class="io.github.rezeros.redit.NodeEdit" text="ReEdit" description="给节点添加属性">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
