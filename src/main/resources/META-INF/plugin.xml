@@ -14,7 +14,7 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    既然是敲代码的插件，当然是首先服务于敲，其次服务于代码
+    Since it is a plug-in for typing code, of course, it serves to type first and serve the code second
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
