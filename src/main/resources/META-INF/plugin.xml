@@ -32,8 +32,13 @@
 
     </extensions>
     <actions>
-        <action id="NodeEdit" class="io.github.rezeros.redit.NodeEdit" text="ReEdit" description="给节点添加属性">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+
+        <group id="ReEdit" text="ReEdit" popup="true" >
+            <add-to-group group-id="EditorPopupMenu" anchor="before" relative-to-action="ReplaceInPath"/>
+        </group>
+        <action id="redit.ClassFieldReEdit" class="io.github.rezeros.redit.ClassFieldReEdit" text="SCFMember" description="给节点添加属性">
+            <add-to-group group-id="ReEdit" anchor="first"/>
         </action>
+
     </actions>
 </idea-plugin>
